@@ -2,10 +2,11 @@
 
 A repository of control algorithms for LEGO EV3 line-follower robots using different control strategies.
 
-Digital proportional-integral-derivative (PID) and their variations are implemented for both the original EV3 software and MicroPython. Moreover, the repository is intended as a practical reference for learning, testing, and comparing different control approaches.
+Digital proportional-integral-derivative (PID) and their variations are implemented for both the original EV3 programming language, Spike and MicroPython. Moreover, the repository is intended as a practical reference for learning, testing, and comparing different control approaches.
 
 The following programs are available:
 - [Line follower PID](./line_follower_pid)
+- [Line follower PID Spike](./line_follower_pid_spike)
 - [Line follower PID MicroPython](./line_follower_pid_micropython)
 
 
