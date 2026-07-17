@@ -1,3 +1,2 @@
-line_follower_pid_squared.lmsp
-line_follower_pid_2sensors_squared.lmsp
-
+line_follower_pid_gain_scheduling.lmsp
+line_follower_pid_2sensors_gain_scheduling.lmsp

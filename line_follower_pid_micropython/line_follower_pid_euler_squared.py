@@ -22,7 +22,9 @@ while True:
     y = S1.reflection()
     e = r -y
 
-    p = k_p*e
+    p = k_p*e*abs(e)
+    if (p >  25): p =  25
+    if (p < -25): p = -25
     i = k_i*T_s*e +i_ant
     if (i >  100): i =  100
     if (i < -100): i = -100

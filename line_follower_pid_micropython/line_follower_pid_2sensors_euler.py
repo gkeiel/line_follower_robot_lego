@@ -6,6 +6,7 @@ from pybricks.tools import wait
 ME = Motor(Port.A)
 MD = Motor(Port.B)
 S1 = ColorSensor(Port.S1)
+S2 = ColorSensor(Port.S2)
 
 k_p = 100
 k_i = 0
@@ -19,7 +20,7 @@ e_ant = 0
 i_ant = 0
 
 while True:
-    y = S1.reflection()
+    y = S1.reflection() -S2.reflection()
     e = r -y
 
     p = k_p*e

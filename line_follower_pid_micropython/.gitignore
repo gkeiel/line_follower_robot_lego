@@ -1,3 +1,2 @@
-line_follower_pid_squared.py
-line_follower_pid_enhanced.py
-line_follower_repetitive.py
+line_follower_pid_euler_gain_scheduling.py
+line_follower_pid_2sensors_euler_gain_scheduling.py
